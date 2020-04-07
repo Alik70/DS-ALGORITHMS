@@ -43,6 +43,8 @@ class Queue(object):
 
 # Double ended queue <->
 
+# adding perfomance optimizations
+
 class Dequeue(object):
 
     def __init__(self):
