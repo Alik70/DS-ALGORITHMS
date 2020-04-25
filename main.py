@@ -1,4 +1,5 @@
 from datastructures.StacksDQ import Stack, Queue, Dequeue
+from datastructures.Trees import *
 
 s = Stack()
 # print(s.isEmpty())
@@ -52,3 +53,23 @@ d = Dequeue()
 # print(factoriel(99))
 # print(add_fact(10))
 # print(sum_func(12345))
+
+# r = binary_tree(3)
+# print(r)
+# insert_left(r, 4)
+# print(r)
+# insert_left(r, 5)
+# print(r)
+# insert_right(r, 6)
+# print(r)
+# insert_right(r, 7)
+# print(r)
+# print(get_left_child(r))
+# set_root_value(get_left_child(r), 9)
+# print(r)
+
+r = BinaryTree('a')
+print(r.key)
+r.insert_left('b')
+r.insert_right('c')
+print(r.get_left_child().key, r.get_right_child().key)
