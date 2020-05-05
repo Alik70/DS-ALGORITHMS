@@ -77,3 +77,25 @@ def get_left_child(root):
 
 def get_right_child(root):
     return root[2]
+
+
+def pre_order(tree):
+    if tree:
+        print(tree.get_root_value)
+        pre_order(tree.get_left_child())
+        pre_order(tree.get_right_child())
+
+
+def post_order(tree):
+    if tree:
+        post_order(tree.get_left_child())
+        post_order(tree.get_right_child())
+        print(tree.get_root_value())
+
+
+def in_order(tree):
+    if tree:
+        in_order(tree.get_left_child)
+        print(tree.get_root_value())
+        in_order(tree.get_right_child())
+
