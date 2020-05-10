@@ -137,7 +137,6 @@ class TreeNode(object):
 class BinarySearchTree(object):
 
     def __init__(self):
-        super(BinarySearchTree, self).__init__()
         self.root = None
         self.size = 0
 

@@ -1,5 +1,7 @@
 from datastructures.StacksDQ import Stack, Queue, Dequeue
 from datastructures.Trees import *
+from datastructures.hashTable import HashTable
+from Algorithms.sortings import bubble_sort, selection_sort
 
 s = Stack()
 # print(s.isEmpty())
@@ -73,3 +75,27 @@ d = Dequeue()
 # r.insert_left('b')
 # r.insert_right('c')
 # print(r.get_left_child().key, r.get_right_child().key)
+
+
+# myTree = BinarySearchTree()
+# myTree[3] = 'red'
+# myTree[4] = 'blue'
+# myTree[6] = 'yellow'
+# myTree[2] = 'at'
+#
+# print(myTree.root)
+# print(myTree[4])
+
+
+# h = HashTable(5)
+#
+# h[1] = 'one'
+# h[2] = 'two'
+# h[3] = 'three'
+# print(h.data, h[3])
+
+
+# arr = [3, 46, 1235, 22, 1, 5, 123, 13, 1234]
+# bubble_sort(arr)
+# selection_sort(arr)
+# print(arr)
