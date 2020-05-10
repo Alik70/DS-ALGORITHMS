@@ -14,6 +14,7 @@ def bubble_sort(arr):
 
 # has the same time complexity of o(n^2)
 # and worst worst case compared to bubble sort
+# added this comment
 def selection_sort(arr):
     for n in range(len(arr) - 1, 0, -1):
         max_pos = 0
